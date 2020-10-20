@@ -229,15 +229,15 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">作者名称</span>
             </div>
-            <input type="text" class="form-control" id="authorName" name="authorName" value="zhengkai.blog.csdn.net">
+            <input type="text" class="form-control" id="authorName" name="authorName" value="yuanyawei001">
             <div class="input-group-prepend">
                 <span class="input-group-text">返回封装</span>
             </div>
-            <input type="text" class="form-control" id="returnUtil" name="returnUtil" value="ReturnT">
+            <input type="text" class="form-control" id="returnUtil" name="returnUtil" value="Result">
             <div class="input-group-prepend">
                 <span class="input-group-text">包名路径</span>
             </div>
-            <input type="text" class="form-control" id="packageName" name="packageName" value="com.softdev.system">
+            <input type="text" class="form-control" id="packageName" name="packageName" value="com.ke.develop">
         </div>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -255,10 +255,10 @@
             </div>
             <select type="text" class="form-control" id="tinyintTransType"
                     name="tinyintTransType">
-                <option value="boolean">boolean</option>
-                <option value="Boolean">Boolean</option>
                 <option value="Integer">Integer</option>
                 <option value="int">int</option>
+                <option value="boolean">boolean</option>
+                <option value="Boolean">Boolean</option>
                 <option value="String">String</option>
             </select>
             <div class="input-group-prepend">
@@ -275,8 +275,8 @@
             </div>
             <select type="text" class="form-control" id="isSwagger"
                     name="isSwagger">
-                <option value="false">关闭</option>
                 <option value="true">开启</option>
+                <option value="false">关闭</option>
             </select>
         </div>
         <textarea id="ddlSqlArea" placeholder="请输入表结构信息..." class="form-control btn-lg" style="height: 250px;">
